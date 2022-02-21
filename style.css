@@ -1,0 +1,160 @@
+h2 {
+    font-family: "Monsterrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 0.5em;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #ff4c68;
+    padding: 0 5% 0 5%;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.nav-item {
+    padding: 0 0 0 1em;
+}
+
+.section1 {
+    background-color: #ff4c68;
+    height: 100vh;
+    position: relative;
+    z-index: -2;
+}
+
+.tagline {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+
+.download-button {
+    margin-right: 3%;
+}
+
+.dog-image-col {
+    padding: 5% 10%;
+}
+
+.dog-image-1 {
+    transform: rotateZ(25deg);
+    height: 80%;
+    position: relative;
+    width: 80%;
+}
+
+.row {
+    --bs-gutter-x: 1rem;
+    margin: 0;
+}
+
+.section2 {
+    background-color: white;
+    padding: 10%;
+    z-index: 0;
+}
+
+.center {
+    text-align: center;
+    padding: 1em;
+}
+
+.feature-icon {
+    color: #ef8172;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+.feature-line {
+    color: #8f8f8f;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.section3 {
+    background-color: #ff4c68;
+    color: #eeeeee;
+    padding: 5%;
+    text-align: center;
+}
+
+.testimonial {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.dog-image-2,
+.lady-image {
+    border-radius: 50%;
+    margin: 5% 1%;
+    width: 20%;
+}
+
+.name {
+    display: inline-block;
+}
+
+.press img {
+    margin: 10% 2%;
+    width: 15%;
+}
+
+.section4 {
+    padding: 5%;
+}
+
+.card {
+    margin: 1em 0;
+}
+
+.section5 {
+    background-color: #ff4c68;
+    color: #eeeeee;
+    padding: 5%;
+    text-align: center;
+}
+
+.section5-heading {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+    margin: 5%;
+}
+
+footer {
+    padding: 7%;
+}
+
+.social-icon {
+    margin: 0.5em;
+}
+
+.copyright {
+    color: #8f8f8f;
+}
+
+@media (max-width: 767px) {
+    .dog-image-1 {
+        position: static;
+        transform: rotate(0);
+        width: 100%;
+    }
+
+    .section1 {
+        height: auto;
+    }
+}
